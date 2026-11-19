@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.bath",
+  "item_inputs": [
+    {
+      "tag": "gt6food:ice_cream/raisin"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6ce:molten_chocolate",
+      "amount": 36
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:chocolate_raisins"
+    }
+  ],
+  "eu_per_tick": 0,
+  "duration": 16
+}

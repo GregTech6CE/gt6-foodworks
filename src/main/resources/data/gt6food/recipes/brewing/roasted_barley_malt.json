@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.roaster",
+  "item_inputs": [
+    {
+      "item": "gt6food:barley_malt"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6ce:air",
+      "amount": 250
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:roasted_barley_malt"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 64
+}

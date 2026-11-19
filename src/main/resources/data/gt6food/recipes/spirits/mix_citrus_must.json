@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:orange_juice",
+      "amount": 250
+    },
+    {
+      "fluid": "gt6food:lemon_juice",
+      "amount": 250
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:citrus_must",
+      "amount": 500
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 32
+}

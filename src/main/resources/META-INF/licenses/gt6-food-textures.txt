@@ -1,0 +1,4 @@
+The GT6 default food and drink textures are from GregTech 6 by Gregorius
+Techneticies and its contributors, via GregTech 6 Community Edition.
+They are dedicated to the public domain under CC0 1.0 Universal.
+https://creativecommons.org/publicdomain/zero/1.0/

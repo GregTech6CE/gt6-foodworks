@@ -1,0 +1,20 @@
+{
+  "type": "gt6ce:tool_shaped",
+  "pattern": [
+    "k",
+    "X"
+  ],
+  "key": {
+    "k": {
+      "tag": "forge:tools/knife"
+    },
+    "X": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "result": {
+    "item": "gt6food:enchanted_golden_apple_pieces"
+  },
+  "allow_mirror": false,
+  "gregtech_autocraftable": false
+}

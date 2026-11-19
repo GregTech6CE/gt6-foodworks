@@ -1,0 +1,19 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "gt6food:sugary_dough"
+    },
+    {
+      "tag": "gt6food:ingredients/chocolate_raisins"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:sugary_chocolate_raisin_dough"
+    }
+  ],
+  "duration": 16,
+  "eu_per_tick": 16
+}

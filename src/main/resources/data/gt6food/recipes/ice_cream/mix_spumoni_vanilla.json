@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "gt6food:cherry_ice_cream"
+    },
+    {
+      "item": "gt6food:pistachio_ice_cream"
+    },
+    {
+      "item": "gt6food:vanilla_ice_cream"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:spumoni_vanilla_ice_cream",
+      "count": 3
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 48
+}

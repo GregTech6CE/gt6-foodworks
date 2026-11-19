@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.squeezer",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/lime"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:fruit_remains",
+      "chance": 7000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:lime_juice",
+      "amount": 125
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

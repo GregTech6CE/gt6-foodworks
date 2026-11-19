@@ -1,0 +1,10 @@
+{
+  "type": "gt6food:extra_loot",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/cactus"
+    }
+  ],
+  "loot_table": "gt6food:acquisition/seeds_from_cactus"
+}

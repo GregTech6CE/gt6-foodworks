@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:dark_coffee",
+      "amount": 125
+    },
+    {
+      "fluid": "gt6food:milk",
+      "amount": 125
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:coffee",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

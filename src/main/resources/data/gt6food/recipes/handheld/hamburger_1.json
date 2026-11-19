@@ -1,0 +1,15 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:buns"
+    },
+    {
+      "tag": "gt6food:ingredients/hamburger_patty"
+    }
+  ],
+  "result": {
+    "item": "gt6food:hamburger"
+  },
+  "gregtech_autocraftable": true
+}

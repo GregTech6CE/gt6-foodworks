@@ -1,0 +1,17 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.shredder",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/white_grapes"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:fruit_remains",
+      "chance": 8000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

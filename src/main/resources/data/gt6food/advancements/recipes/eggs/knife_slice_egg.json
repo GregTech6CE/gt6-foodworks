@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "tag": "gt6food:eggs/boiled_eggs" }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gt6food:eggs/knife_slice_egg"
+      }
+    }
+  },
+  "requirements": [
+    ["has_ingredient", "has_recipe"]
+  ],
+  "rewards": {
+    "recipes": ["gt6food:eggs/knife_slice_egg"]
+  }
+}

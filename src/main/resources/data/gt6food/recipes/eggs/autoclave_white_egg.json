@@ -1,0 +1,26 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.autoclave",
+  "item_inputs": [
+    { "item": "gt6food:egg" },
+    { "item": "gt6ce:integrated_circuit_0" }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6ce:steam",
+      "amount": 800
+    }
+  ],
+  "item_outputs": [
+    { "item": "gt6food:boiled_egg_2" },
+    { "item": "minecraft:bone_meal" }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6ce:ic2distilledwater",
+      "amount": 5
+    }
+  ],
+  "eu_per_tick": 0,
+  "duration": 128
+}

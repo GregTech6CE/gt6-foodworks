@@ -1,0 +1,19 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "gt6food:ice_cream"
+    },
+    {
+      "item": "gt6food:caramel"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:caramel_ice_cream"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

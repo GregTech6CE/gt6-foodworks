@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gt6ce:grilled_rib_eye_steak"
+    }
+  ],
+  "result": {
+    "item": "gt6food:grilled_rib_eye_steak"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "gt6ce:grilled_rib_eye_steak"
+    }
+  ]
+}

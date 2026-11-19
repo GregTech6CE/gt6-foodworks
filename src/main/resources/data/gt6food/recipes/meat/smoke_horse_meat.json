@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": { "item": "gt6food:horse_meat" },
+  "result": "gt6food:grilled_horse_meat",
+  "experience": 0,
+  "cookingtime": 100
+}

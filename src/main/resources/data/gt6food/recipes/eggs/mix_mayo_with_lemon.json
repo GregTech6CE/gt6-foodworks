@@ -1,0 +1,30 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "gt6ce:integrated_circuit_0"
+    },
+    {
+      "item": "gt6food:egg_yolk"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6ce:seedoil",
+      "amount": 100
+    },
+    {
+      "tag": "gt6food:mayonnaise_lemon_juices",
+      "amount": 100
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:mayo",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

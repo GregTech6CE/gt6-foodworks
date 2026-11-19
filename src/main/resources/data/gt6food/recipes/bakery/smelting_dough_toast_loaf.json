@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "gt6food:dough_toast_loaf"
+  },
+  "result": "gt6food:loaf_of_toast",
+  "experience": 0.0,
+  "cookingtime": 200
+}

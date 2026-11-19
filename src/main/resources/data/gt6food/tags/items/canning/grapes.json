@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#gt6food:produce/green_grapes",
+    "#gt6food:produce/red_grapes",
+    "#gt6food:produce/white_grapes",
+    "#gt6food:produce/purple_grapes"
+  ]
+}

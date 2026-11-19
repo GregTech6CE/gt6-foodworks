@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:peanut",
+    {
+      "id": "#forge:crops/peanut",
+      "required": false
+    },
+    {
+      "id": "gt6ce:peanut",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:peanutitem",
+      "required": false
+    }
+  ]
+}

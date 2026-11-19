@@ -1,0 +1,19 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.canner",
+  "item_inputs": [
+    {
+      "tag": "gt6food:canning/wide_bread"
+    },
+    {
+      "item": "gt6food:empty_food_can"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:wide_food_can_bread"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

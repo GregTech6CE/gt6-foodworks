@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gt6ce:grilled_bacon"
+    }
+  ],
+  "result": {
+    "item": "gt6food:grilled_bacon"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "gt6ce:grilled_bacon"
+    }
+  ]
+}

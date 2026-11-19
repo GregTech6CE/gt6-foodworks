@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": { "item": "gt6food:potato_chips_raw" },
+  "result": "gt6food:potato_chips",
+  "experience": 0,
+  "cookingtime": 100
+}

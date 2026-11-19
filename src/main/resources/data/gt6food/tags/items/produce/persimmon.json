@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/persimmon",
+    {
+      "id": "pamhc2trees:persimmonitem",
+      "required": false
+    }
+  ]
+}

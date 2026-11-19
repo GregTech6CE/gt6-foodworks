@@ -1,0 +1,9 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.canner",
+  "item_inputs": [{ "item": "minecraft:bowl" }],
+  "fluid_inputs": [{ "fluid": "gt6ce:mushroomsoup", "amount": 1000 }],
+  "item_outputs": [{ "item": "minecraft:mushroom_stew" }],
+  "eu_per_tick": 16,
+  "duration": 16
+}

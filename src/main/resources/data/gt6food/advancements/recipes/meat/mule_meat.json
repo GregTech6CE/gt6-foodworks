@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gt6food:mule_meat"]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gt6food:meat/smelt_mule_meat"
+      }
+    }
+  },
+  "requirements": [
+    ["has_ingredient", "has_recipe"]
+  ],
+  "rewards": {
+    "recipes": ["gt6food:meat/smelt_mule_meat", "gt6food:meat/smoke_mule_meat"]
+  }
+}

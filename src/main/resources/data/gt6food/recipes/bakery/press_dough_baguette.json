@@ -1,0 +1,20 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.press",
+  "item_inputs": [
+    {
+      "item": "gt6food:dough",
+      "count": 3
+    },
+    {
+      "item": "gt6ce:foodmold_shape_baguette"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:dough_baguette"
+    }
+  ],
+  "duration": 48,
+  "eu_per_tick": 16
+}

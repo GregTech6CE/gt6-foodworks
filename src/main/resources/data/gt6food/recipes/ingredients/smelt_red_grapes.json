@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "gt6food:produce/red_grapes"
+  },
+  "result": "gt6food:red_raisins",
+  "experience": 0.1,
+  "cookingtime": 200
+}

@@ -1,0 +1,19 @@
+{
+  "type": "gt6ce:machine",
+  "map": "mc.recipe.furnace",
+  "item_inputs": [
+    { "item": "gt6food:horse_meat" }
+  ],
+  "fluid_inputs": [
+    {
+      "tag": "gt6ce:cooking_oils",
+      "amount": 50
+    }
+  ],
+  "item_outputs": [
+    { "item": "gt6food:grilled_horse_meat", "count": 2 }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16,
+  "priority": 1
+}

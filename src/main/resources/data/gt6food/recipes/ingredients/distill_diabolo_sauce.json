@@ -1,0 +1,24 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.distillery",
+  "item_inputs": [
+    {
+      "material": "Chili",
+      "form": "dust"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:hot_sauce",
+      "amount": 750
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:diabolo_sauce",
+      "amount": 750
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 128
+}

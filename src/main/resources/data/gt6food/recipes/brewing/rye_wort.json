@@ -1,0 +1,27 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/rye",
+      "count": 2
+    },
+    {
+      "tag": "gt6food:produce/hops"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:rye_wort",
+      "amount": 1000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 64
+}

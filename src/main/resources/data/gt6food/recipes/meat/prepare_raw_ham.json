@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gt6ce:raw_ham"
+    }
+  ],
+  "result": {
+    "item": "gt6food:raw_ham"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "gt6ce:raw_ham"
+    }
+  ]
+}

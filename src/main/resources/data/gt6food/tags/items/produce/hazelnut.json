@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:hazelnut",
+    {
+      "id": "#forge:crops/hazelnut",
+      "required": false
+    },
+    {
+      "id": "gt6ce:hazelnut",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:hazelnutitem",
+      "required": false
+    }
+  ]
+}

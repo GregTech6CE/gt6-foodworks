@@ -1,0 +1,20 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.slicer",
+  "item_inputs": [
+    {
+      "item": "gt6food:bun"
+    },
+    {
+      "item": "gt6ce:slicer_shape_split"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:sliced_bun",
+      "count": 2
+    }
+  ],
+  "duration": 16,
+  "eu_per_tick": 16
+}

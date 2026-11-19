@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:raw_ham_slice",
+    "gt6food:cooked_ham_slice"
+  ]
+}

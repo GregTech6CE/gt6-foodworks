@@ -1,0 +1,17 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.shredder",
+  "item_inputs": [
+    {
+      "item": "gt6food:beet_pieces"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:vegetable_remains",
+      "chance": 7000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

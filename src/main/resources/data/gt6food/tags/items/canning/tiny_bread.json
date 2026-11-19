@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:bun",
+    "gt6food:buns",
+    "gt6food:sliced_bread",
+    "gt6food:toast",
+    {
+      "id": "gt6ce:bun",
+      "required": false
+    },
+    {
+      "id": "gt6ce:buns",
+      "required": false
+    },
+    {
+      "id": "gt6ce:sliced_bread",
+      "required": false
+    },
+    {
+      "id": "gt6ce:toast",
+      "required": false
+    }
+  ]
+}

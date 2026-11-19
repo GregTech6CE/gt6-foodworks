@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:flat_dough_with_ketchup"
+    },
+    {
+      "tag": "gt6food:ingredients/cheese_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/cheese_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/cheese_slice"
+    }
+  ],
+  "result": {
+    "item": "gt6food:raw_pizza_margherita",
+    "count": 1
+  },
+  "gregtech_autocraftable": true
+}

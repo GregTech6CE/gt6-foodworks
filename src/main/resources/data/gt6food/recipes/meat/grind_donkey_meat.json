@@ -1,0 +1,16 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mortar",
+  "item_inputs": [
+    { "item": "gt6food:donkey_meat" }
+  ],
+  "item_outputs": [
+    {
+      "material": "MeatRaw",
+      "form": "dustSmall",
+      "count": 10
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

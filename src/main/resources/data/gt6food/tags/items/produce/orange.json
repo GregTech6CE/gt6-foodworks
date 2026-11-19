@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/orange",
+    {
+      "id": "pamhc2trees:orangeitem",
+      "required": false
+    }
+  ]
+}

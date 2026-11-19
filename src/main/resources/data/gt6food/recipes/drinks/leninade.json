@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:lemonade",
+      "amount": 125
+    },
+    {
+      "fluid": "gt6food:vodka",
+      "amount": 125
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:leninade",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

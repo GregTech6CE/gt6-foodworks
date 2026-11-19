@@ -1,0 +1,17 @@
+{
+  "values": [
+    "gt6food:onion",
+    {
+      "id": "gt6ce:onion",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:onionitem",
+      "required": false
+    },
+    {
+      "id": "#forge:crops/onion",
+      "required": false
+    }
+  ]
+}

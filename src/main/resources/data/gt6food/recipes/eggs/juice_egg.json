@@ -1,0 +1,14 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.juicer",
+  "item_inputs": [
+    { "item": "gt6food:egg" }
+  ],
+  "item_outputs": [
+    { "item": "gt6food:egg_white" },
+    { "item": "gt6food:egg_yolk" },
+    { "item": "minecraft:bone_meal" }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

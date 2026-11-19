@@ -1,0 +1,20 @@
+{
+  "type": "gt6ce:tool_shaped",
+  "pattern": [
+    "k",
+    "X"
+  ],
+  "key": {
+    "k": {
+      "tag": "forge:tools/knife"
+    },
+    "X": {
+      "tag": "gt6food:produce/blueberry"
+    }
+  },
+  "result": {
+    "item": "gt6food:blueberry_pieces"
+  },
+  "allow_mirror": false,
+  "gregtech_autocraftable": false
+}

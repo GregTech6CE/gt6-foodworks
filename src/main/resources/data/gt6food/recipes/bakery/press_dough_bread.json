@@ -1,0 +1,20 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.press",
+  "item_inputs": [
+    {
+      "item": "gt6food:dough",
+      "count": 2
+    },
+    {
+      "item": "gt6ce:foodmold_shape_bread"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:dough_bread"
+    }
+  ],
+  "duration": 32,
+  "eu_per_tick": 16
+}

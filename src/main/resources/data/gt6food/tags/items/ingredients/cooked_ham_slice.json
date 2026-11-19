@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:cooked_ham_slice",
+    {
+      "id": "gt6ce:cooked_ham_slice",
+      "required": false
+    }
+  ]
+}

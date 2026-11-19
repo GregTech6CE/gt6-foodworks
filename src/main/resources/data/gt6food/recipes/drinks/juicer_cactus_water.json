@@ -1,0 +1,24 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.juicer",
+  "item_inputs": [
+    {
+      "item": "gt6food:cactus_pieces"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "minecraft:green_dye",
+      "count": 2,
+      "chance": 9000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:cactus_water",
+      "amount": 75
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

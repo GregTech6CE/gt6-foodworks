@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "gt6ce:cooked_ham",
+      "required": false
+    },
+    {
+      "id": "gt6ce:grilled_ribs",
+      "required": false
+    },
+    {
+      "id": "gt6ce:grilled_rib_eye_steak",
+      "required": false
+    },
+    {
+      "id": "gt6ce:grilled_mule_meat",
+      "required": false
+    }
+  ]
+}

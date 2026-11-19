@@ -1,0 +1,19 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.squeezer",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/candleberry"
+    }
+  ],
+  "item_outputs": [
+    {
+      "material": "WaxPlant",
+      "form": "dustSmall",
+      "count": 4,
+      "chance": 3000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

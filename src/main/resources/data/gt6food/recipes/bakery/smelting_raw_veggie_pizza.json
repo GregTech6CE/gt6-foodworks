@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "gt6food:raw_veggie_pizza"
+  },
+  "result": "gt6food:veggie_pizza",
+  "experience": 0.0,
+  "cookingtime": 200
+}

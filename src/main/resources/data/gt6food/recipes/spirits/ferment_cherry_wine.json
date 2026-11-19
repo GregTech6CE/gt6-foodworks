@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.fermenter",
+  "item_inputs": [
+    {
+      "item": "gt6ce:integrated_circuit_0"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:cherry_juice",
+      "amount": 500
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:cherry_wine",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 128
+}

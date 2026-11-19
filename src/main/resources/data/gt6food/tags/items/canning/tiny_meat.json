@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "gt6ce:raw_ham",
+      "required": false
+    },
+    {
+      "id": "gt6ce:raw_bacon",
+      "required": false
+    },
+    {
+      "id": "gt6ce:grilled_bacon",
+      "required": false
+    },
+    {
+      "id": "gt6ce:raw_ribs",
+      "required": false
+    },
+    {
+      "id": "gt6ce:raw_rib_eye_steak",
+      "required": false
+    },
+    {
+      "id": "gt6ce:dogmeat",
+      "required": false
+    },
+    {
+      "id": "gt6ce:horse_meat",
+      "required": false
+    },
+    {
+      "id": "gt6ce:mule_meat",
+      "required": false
+    },
+    {
+      "id": "gt6ce:donkey_meat",
+      "required": false
+    }
+  ]
+}

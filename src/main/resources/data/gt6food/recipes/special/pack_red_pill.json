@@ -1,0 +1,19 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.boxinator",
+  "item_inputs": [
+    {
+      "item": "gt6ce:empty_wax_pill"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:red_pill"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

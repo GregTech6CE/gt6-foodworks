@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:pickle_slice",
+    {
+      "id": "gt6ce:pickle_slice",
+      "required": false
+    }
+  ]
+}

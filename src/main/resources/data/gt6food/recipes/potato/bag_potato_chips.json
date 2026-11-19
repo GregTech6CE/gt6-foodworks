@@ -1,0 +1,9 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    { "tag": "gt6ce:foil/aluminium" },
+    { "item": "gt6food:potato_chips" }
+  ],
+  "result": { "item": "gt6food:bag_of_potato_chips" },
+  "gregtech_autocraftable": false
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:mint_leaves",
+    {
+      "id": "#forge:crops/mint",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:milk",
+      "amount": 750
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:dark_chocolate_milk",
+      "amount": 750
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 48
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:onion_slice",
+    {
+      "id": "gt6ce:onion_slice",
+      "required": false
+    }
+  ]
+}

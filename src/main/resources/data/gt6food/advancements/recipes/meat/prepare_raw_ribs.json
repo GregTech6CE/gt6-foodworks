@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gt6ce:raw_ribs"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gt6food:meat/prepare_raw_ribs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingredient",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gt6food:meat/prepare_raw_ribs"
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "gt6ce:raw_ribs"
+    }
+  ]
+}

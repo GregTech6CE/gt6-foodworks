@@ -1,0 +1,177 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.18
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:tomato_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:onion_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:cucumber_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:blackberry_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:blueberry_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:raspberry_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:cranberry_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:gooseberry_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:strawberry_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:ananas_seeds"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:green_grapes_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:white_grapes_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:red_grapes_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:purple_grapes_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:black_currants_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:white_currants_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:red_currants_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:chili_pepper_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:mint_leaves_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:peanut_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:candleberry_seeds"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:anise_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:hops_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:barley_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:corn_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:rye_seeds"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.11
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:soybean_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:rice_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:spice_leaf_seeds"
+        }
+      ]
+    }
+  ]
+}

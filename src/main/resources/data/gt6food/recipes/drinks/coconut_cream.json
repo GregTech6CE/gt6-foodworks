@@ -1,0 +1,18 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.centrifuge",
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:coconut_milk",
+      "amount": 50
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:coconut_cream",
+      "amount": 50
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

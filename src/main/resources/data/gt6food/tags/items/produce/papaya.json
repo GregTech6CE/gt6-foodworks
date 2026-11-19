@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/papaya",
+    {
+      "id": "pamhc2trees:papayaitem",
+      "required": false
+    }
+  ]
+}

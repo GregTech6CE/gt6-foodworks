@@ -1,0 +1,21 @@
+{
+  "type": "gt6ce:tool_shaped",
+  "pattern": [
+    "X",
+    "k"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:bread"
+    },
+    "k": {
+      "tag": "forge:tools/knife"
+    }
+  },
+  "result": {
+    "item": "gt6food:sliced_bread",
+    "count": 2
+  },
+  "allow_mirror": false,
+  "gregtech_autocraftable": false
+}

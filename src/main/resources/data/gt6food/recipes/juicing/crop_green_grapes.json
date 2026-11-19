@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.juicer",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/green_grapes"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:fruit_remains",
+      "chance": 8000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:grape_juice_3",
+      "amount": 100
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

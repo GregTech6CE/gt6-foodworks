@@ -1,0 +1,20 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.canner",
+  "item_inputs": [
+    {
+      "item": "gt6food:cookie",
+      "count": 6
+    },
+    {
+      "item": "gt6food:empty_food_can"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:chocolate_raisin_cookie_tin"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

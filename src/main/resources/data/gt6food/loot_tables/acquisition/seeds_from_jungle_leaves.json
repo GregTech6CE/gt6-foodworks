@@ -1,0 +1,117 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:banana_seeds"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.12
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:black_pepper_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:coconut_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:kiwi_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:coffee_beans_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:vanilla_bean_seeds"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:orange_seeds"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:lime_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:grapefruit_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:persimmon_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:starfruit_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:fig_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:mango_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:papaya_seeds"
+        }
+      ]
+    }
+  ]
+}

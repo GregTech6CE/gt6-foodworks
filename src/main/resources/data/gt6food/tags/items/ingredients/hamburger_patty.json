@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:cooked_ham_slice",
+    "minecraft:cooked_beef",
+    {
+      "id": "gt6ce:cooked_meat_bar",
+      "required": false
+    },
+    {
+      "id": "#gt6ce:ingot/meat_cooked",
+      "required": false
+    }
+  ]
+}

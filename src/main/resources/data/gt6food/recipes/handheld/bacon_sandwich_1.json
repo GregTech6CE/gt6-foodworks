@@ -1,0 +1,21 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:breads"
+    },
+    {
+      "tag": "gt6food:ingredients/grilled_bacon"
+    },
+    {
+      "tag": "gt6food:ingredients/grilled_bacon"
+    },
+    {
+      "tag": "gt6food:ingredients/grilled_bacon"
+    }
+  ],
+  "result": {
+    "item": "gt6food:bacon_sandwich"
+  },
+  "gregtech_autocraftable": true
+}

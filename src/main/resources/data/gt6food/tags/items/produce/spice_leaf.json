@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/spice_leaf",
+    {
+      "id": "pamhc2crops:spiceleafitem",
+      "required": false
+    }
+  ]
+}

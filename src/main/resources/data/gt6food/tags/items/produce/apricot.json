@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/apricot",
+    {
+      "id": "pamhc2trees:apricotitem",
+      "required": false
+    }
+  ]
+}

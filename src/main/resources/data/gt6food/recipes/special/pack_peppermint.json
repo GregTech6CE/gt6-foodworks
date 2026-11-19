@@ -1,0 +1,19 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.boxinator",
+  "item_inputs": [
+    {
+      "item": "gt6ce:empty_wax_pill"
+    },
+    {
+      "tag": "gt6food:produce/mint_leaves"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:peppermint"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

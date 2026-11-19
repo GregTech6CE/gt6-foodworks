@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:black_pepper",
+    {
+      "id": "#forge:crops/peppercorn",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:peppercornitem",
+      "required": false
+    }
+  ]
+}

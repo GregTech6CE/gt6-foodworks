@@ -1,0 +1,16 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.drying",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/barley"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:barley_malt"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 128
+}

@@ -1,0 +1,13 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.slicer",
+  "item_inputs": [
+    { "item": "gt6food:potato_pieces" },
+    { "item": "gt6ce:slicer_shape_grid" }
+  ],
+  "item_outputs": [
+    { "item": "gt6food:potato_strips" }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

@@ -1,0 +1,33 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:baguettes"
+    },
+    {
+      "tag": "gt6food:ingredients/cucumber_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/cucumber_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/cucumber_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/tomato_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/tomato_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/tomato_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/onion_slice"
+    }
+  ],
+  "result": {
+    "item": "gt6food:large_veggie_sandwich"
+  },
+  "gregtech_autocraftable": true
+}

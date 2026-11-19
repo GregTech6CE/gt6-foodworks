@@ -1,0 +1,111 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:lemon_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:pomegranate_seeds"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:hazelnut_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:pistachio_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:cherry_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:tea_leaves_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:apple_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:apple_2_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:apple_3_seeds"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.18
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:apricot_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:elderberry_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:peach_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:pear_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:plum_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:almond_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gt6food:juniper_berries_seeds"
+        }
+      ]
+    }
+  ]
+}

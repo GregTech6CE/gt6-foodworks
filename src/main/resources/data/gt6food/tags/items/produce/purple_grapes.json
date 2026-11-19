@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:purple_grapes",
+    {
+      "id": "#forge:crops/purple_grapes",
+      "required": false
+    },
+    {
+      "id": "gt6ce:purple_grapes",
+      "required": false
+    }
+  ]
+}

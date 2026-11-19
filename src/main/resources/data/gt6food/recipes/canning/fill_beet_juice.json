@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.canner",
+  "item_inputs": [
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:beet_juice",
+      "amount": 250
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:beet_juice"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

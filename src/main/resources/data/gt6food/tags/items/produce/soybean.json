@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/soybean",
+    {
+      "id": "pamhc2crops:soybeanitem",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.bath",
+  "item_inputs": [
+    { "item": "gt6food:egg" }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6ce:watergeothermal",
+      "amount": 100
+    }
+  ],
+  "item_outputs": [
+    { "item": "gt6food:boiled_egg_2" },
+    { "item": "minecraft:bone_meal" }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 100
+    }
+  ],
+  "eu_per_tick": 0,
+  "duration": 128
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:vanilla_bean",
+    {
+      "id": "#forge:crops/vanillabean",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:vanillabeanitem",
+      "required": false
+    }
+  ]
+}

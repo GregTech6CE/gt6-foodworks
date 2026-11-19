@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/rice"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:rice_mash",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 32
+}

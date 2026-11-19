@@ -1,0 +1,21 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.canner",
+  "item_inputs": [
+    {
+      "material": "MeatCooked",
+      "form": "nugget",
+      "count": 9
+    },
+    {
+      "item": "gt6food:empty_food_can"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:tiny_food_can_meat"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

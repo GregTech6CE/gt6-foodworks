@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:white_grapes",
+    {
+      "id": "#forge:crops/white_grapes",
+      "required": false
+    },
+    {
+      "id": "gt6ce:white_grapes",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.press",
+  "item_inputs": [
+    {
+      "item": "gt6food:sugary_dough",
+      "count": 4
+    },
+    {
+      "item": "gt6ce:foodmold_shape_cylinder"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:raw_cake_bottom"
+    }
+  ],
+  "duration": 64,
+  "eu_per_tick": 16
+}

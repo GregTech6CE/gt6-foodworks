@@ -1,0 +1,30 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "gt6food:produce/mint_leaves"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:neutral_spirit",
+      "amount": 125
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 125
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:mint_liqueur",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 48
+}

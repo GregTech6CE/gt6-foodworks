@@ -1,0 +1,17 @@
+{
+  "values": [
+    "gt6food:strawberry",
+    {
+      "id": "gt6ce:strawberry",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:strawberryitem",
+      "required": false
+    },
+    {
+      "id": "#forge:crops/strawberry",
+      "required": false
+    }
+  ]
+}

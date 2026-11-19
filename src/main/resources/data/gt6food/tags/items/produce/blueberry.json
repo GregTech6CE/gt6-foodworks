@@ -1,0 +1,17 @@
+{
+  "values": [
+    "gt6food:blueberry",
+    {
+      "id": "gt6ce:blueberry",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:blueberryitem",
+      "required": false
+    },
+    {
+      "id": "#forge:crops/blueberry",
+      "required": false
+    }
+  ]
+}

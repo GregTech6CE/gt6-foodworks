@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:apple"] }] }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": { "recipe": "gt6food:apple_pieces" }
+    }
+  },
+  "requirements": [["has_apple", "has_recipe"]],
+  "rewards": { "recipes": ["gt6food:apple_pieces"] }
+}

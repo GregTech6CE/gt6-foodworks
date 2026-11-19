@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:royal_jelly",
+      "amount": 100
+    },
+    {
+      "fluid": "gt6food:honeydew",
+      "amount": 200
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:ambrosia",
+      "amount": 400
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

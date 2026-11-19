@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:red_mushroom"
+      },
+      {
+        "item": "minecraft:brown_mushroom"
+      }
+    ],
+    [
+      {
+        "item": "minecraft:bread"
+      },
+      {
+        "item": "gt6food:breads"
+      }
+    ]
+  ],
+  "result": {
+    "item": "gt6food:brewing_yeast",
+    "count": 4
+  }
+}

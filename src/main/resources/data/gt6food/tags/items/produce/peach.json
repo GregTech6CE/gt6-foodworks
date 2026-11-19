@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/peach",
+    {
+      "id": "pamhc2trees:peachitem",
+      "required": false
+    }
+  ]
+}

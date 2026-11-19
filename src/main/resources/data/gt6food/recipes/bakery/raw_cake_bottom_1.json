@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:sugary_dough"
+    },
+    {
+      "item": "gt6food:sugary_dough"
+    },
+    {
+      "item": "gt6food:sugary_dough"
+    },
+    {
+      "item": "gt6food:sugary_dough"
+    }
+  ],
+  "result": {
+    "item": "gt6food:raw_cake_bottom",
+    "count": 1
+  },
+  "gregtech_autocraftable": false
+}

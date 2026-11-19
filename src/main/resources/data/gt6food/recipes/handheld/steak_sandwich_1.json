@@ -1,0 +1,15 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:breads"
+    },
+    {
+      "tag": "gt6food:ingredients/steak"
+    }
+  ],
+  "result": {
+    "item": "gt6food:steak_sandwich"
+  },
+  "gregtech_autocraftable": true
+}

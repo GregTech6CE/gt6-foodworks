@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:cucumber_slice",
+    {
+      "id": "gt6ce:cucumber_slice",
+      "required": false
+    }
+  ]
+}

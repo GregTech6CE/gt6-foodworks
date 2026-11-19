@@ -1,0 +1,13 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.boxinator",
+  "item_inputs": [
+    { "item": "gt6food:chili_chips" },
+    { "item": "gt6ce:foil_aluminium" }
+  ],
+  "item_outputs": [
+    { "item": "gt6food:bag_of_chili_chips" }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

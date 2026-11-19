@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:lemon_juice",
+    {
+      "id": "gt6ce:binnie_juicelemon",
+      "required": false
+    }
+  ]
+}

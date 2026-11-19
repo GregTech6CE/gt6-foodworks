@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": { "item": "gt6food:raw_ribs" },
+  "result": "gt6food:grilled_ribs",
+  "experience": 0,
+  "cookingtime": 200
+}

@@ -1,0 +1,17 @@
+{
+  "values": [
+    "gt6food:cranberry",
+    {
+      "id": "gt6ce:cranberry",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:cranberryitem",
+      "required": false
+    },
+    {
+      "id": "#forge:crops/cranberry",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:cafe_au_lait",
+      "amount": 750
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:lait_au_cafe",
+      "amount": 750
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 48
+}

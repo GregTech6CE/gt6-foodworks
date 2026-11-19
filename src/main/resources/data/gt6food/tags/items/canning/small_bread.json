@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bread",
+    "gt6food:breads",
+    {
+      "id": "gt6ce:breads",
+      "required": false
+    }
+  ]
+}

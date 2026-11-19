@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "gt6food:ice_cream",
+      "count": 4
+    },
+    {
+      "material": "Coffee",
+      "form": "dust"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:mocha_ice_cream",
+      "count": 4
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 64
+}

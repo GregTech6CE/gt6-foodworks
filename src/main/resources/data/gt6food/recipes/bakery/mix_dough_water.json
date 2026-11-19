@@ -1,0 +1,33 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:item_exists",
+        "item": "gt6ce:dough"
+      }
+    }
+  ],
+  "item_inputs": [
+    {
+      "material": "Wheat",
+      "form": "dust"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:dough",
+      "count": 2
+    }
+  ],
+  "duration": 16,
+  "eu_per_tick": 16
+}

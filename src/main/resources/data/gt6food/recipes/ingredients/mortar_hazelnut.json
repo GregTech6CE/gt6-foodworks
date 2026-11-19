@@ -1,0 +1,17 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mortar",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/hazelnut"
+    }
+  ],
+  "item_outputs": [
+    {
+      "material": "Hazelnut",
+      "form": "dust"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

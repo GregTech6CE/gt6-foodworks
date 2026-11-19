@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "gt6food:toast"
+  },
+  "result": "gt6food:toasted_toast",
+  "experience": 0.0,
+  "cookingtime": 100
+}

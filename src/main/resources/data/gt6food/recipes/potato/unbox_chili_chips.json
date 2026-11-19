@@ -1,0 +1,13 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.unboxinator",
+  "item_inputs": [
+    { "item": "gt6food:bag_of_chili_chips" }
+  ],
+  "item_outputs": [
+    { "item": "gt6food:chili_chips" },
+    { "item": "gt6ce:scrap_gt_aluminium", "count": 2 }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

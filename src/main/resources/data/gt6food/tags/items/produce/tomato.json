@@ -1,0 +1,17 @@
+{
+  "values": [
+    "gt6food:tomato",
+    {
+      "id": "gt6ce:tomato",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:tomatoitem",
+      "required": false
+    },
+    {
+      "id": "#forge:crops/tomato",
+      "required": false
+    }
+  ]
+}

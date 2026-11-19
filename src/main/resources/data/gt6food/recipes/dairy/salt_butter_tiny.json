@@ -1,0 +1,20 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "material": "NaCl",
+      "form": "dustTiny"
+    },
+    {
+      "item": "gt6food:butter"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:salted_butter"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

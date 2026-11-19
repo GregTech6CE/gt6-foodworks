@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.slicer",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/apple_3"
+    },
+    {
+      "item": "gt6ce:slicer_shape_quaters_hollow"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:apple_slice_4",
+      "count": 4
+    },
+    {
+      "item": "gt6food:apple_core_4"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:tomato_ketchup",
+    {
+      "id": "#gt6ce:food/foodketchup",
+      "required": false
+    }
+  ]
+}

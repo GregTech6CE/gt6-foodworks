@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": { "item": "gt6food:raw_bacon" },
+  "result": "gt6food:grilled_bacon",
+  "experience": 0,
+  "cookingtime": 100
+}

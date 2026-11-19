@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/fig",
+    {
+      "id": "pamhc2trees:figitem",
+      "required": false
+    }
+  ]
+}

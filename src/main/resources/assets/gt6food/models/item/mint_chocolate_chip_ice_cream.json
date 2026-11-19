@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gt6food:item/ice_cream/mint_chocolate_chip_ice_cream"
+  }
+}

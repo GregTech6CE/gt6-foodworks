@@ -1,0 +1,18 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:sliced_bun"
+    },
+    {
+      "item": "gt6food:sliced_bun"
+    },
+    {
+      "tag": "gt6food:ingredients/chum"
+    }
+  ],
+  "result": {
+    "item": "gt6food:chum_burger"
+  },
+  "gregtech_autocraftable": true
+}

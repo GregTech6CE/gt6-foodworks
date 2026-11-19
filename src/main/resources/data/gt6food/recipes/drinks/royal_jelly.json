@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6ce:honey",
+      "amount": 250
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:royal_jelly",
+      "amount": 100
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

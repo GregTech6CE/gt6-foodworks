@@ -1,0 +1,21 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:buns"
+    },
+    {
+      "tag": "gt6food:ingredients/cheese_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/cheese_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/cheese_slice"
+    }
+  ],
+  "result": {
+    "item": "gt6food:cheese_burger"
+  },
+  "gregtech_autocraftable": true
+}

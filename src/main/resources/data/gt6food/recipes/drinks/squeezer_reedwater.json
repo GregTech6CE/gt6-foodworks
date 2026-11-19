@@ -1,0 +1,24 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.squeezer",
+  "item_inputs": [
+    {
+      "item": "gt6food:sugar_cane_pieces"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:plant_remains",
+      "count": 1,
+      "chance": 4000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:reedwater",
+      "amount": 100
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

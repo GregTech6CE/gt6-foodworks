@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": { "item": "gt6food:raw_ham_slice" },
+  "result": "gt6food:cooked_ham_slice",
+  "experience": 0,
+  "cookingtime": 200
+}

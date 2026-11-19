@@ -1,0 +1,17 @@
+{
+  "values": [
+    "gt6food:cucumber",
+    {
+      "id": "gt6ce:cucumber",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:cucumberitem",
+      "required": false
+    },
+    {
+      "id": "#forge:crops/cucumber",
+      "required": false
+    }
+  ]
+}

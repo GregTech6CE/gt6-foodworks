@@ -1,0 +1,27 @@
+{
+  "type": "gt6ce:tool_shaped",
+  "pattern": [
+    "hf",
+    "Po"
+  ],
+  "key": {
+    "f": {
+      "item": "gt6ce:tool_file"
+    },
+    "h": {
+      "item": "gt6ce:tool_hammer"
+    },
+    "o": {
+      "item": "gt6ce:tool_small_bending_cylinder"
+    },
+    "P": {
+      "item": "gt6ce:plate_curved_tinalloy"
+    }
+  },
+  "result": {
+    "item": "gt6food:empty_food_can",
+    "count": 1
+  },
+  "allow_mirror": false,
+  "_comment": "The mirrored layout lets the GT6CE 1.0.8 recipe keep its original output."
+}

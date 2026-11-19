@@ -1,0 +1,12 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.fermenter",
+  "item_inputs": [
+    { "item": "gt6food:donkey_meat" }
+  ],
+  "item_outputs": [
+    { "item": "minecraft:rotten_flesh" }
+  ],
+  "eu_per_tick": 16,
+  "duration": 288
+}

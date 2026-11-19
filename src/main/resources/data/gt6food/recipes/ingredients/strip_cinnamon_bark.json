@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.slicer",
+  "item_inputs": [
+    {
+      "item": "gt6ce:log_cinnamon"
+    },
+    {
+      "item": "gt6ce:slicer_shape_flat"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6ce:stripped_log_cinnamon"
+    },
+    {
+      "item": "gt6food:cinnamon_bark"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:kiwi",
+    {
+      "id": "#forge:crops/kiwi",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:kiwiitem",
+      "required": false
+    }
+  ]
+}

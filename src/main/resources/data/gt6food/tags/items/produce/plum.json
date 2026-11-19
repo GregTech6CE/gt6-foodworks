@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/plum",
+    {
+      "id": "pamhc2trees:plumitem",
+      "required": false
+    }
+  ]
+}

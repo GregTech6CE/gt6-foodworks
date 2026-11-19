@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gt6ce:grilled_dogmeat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gt6food:meat/prepare_grilled_dogmeat"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingredient",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gt6food:meat/prepare_grilled_dogmeat"
+    ]
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "gt6ce:grilled_dogmeat"
+    }
+  ]
+}

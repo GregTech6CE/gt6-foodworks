@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:raw_ham_slice",
+    {
+      "id": "gt6ce:scrap_meat",
+      "required": false
+    }
+  ]
+}

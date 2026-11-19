@@ -1,0 +1,13 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.boxinator",
+  "item_inputs": [
+    { "item": "gt6food:fries" },
+    { "item": "gt6ce:plate_double_paper" }
+  ],
+  "item_outputs": [
+    { "item": "gt6food:fries_2" }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.bath",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/cucumber"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:grape_vinegar",
+      "amount": 50
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:pickle"
+    }
+  ],
+  "eu_per_tick": 0,
+  "duration": 16
+}

@@ -1,0 +1,27 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "material": "NaCl",
+      "form": "dust"
+    },
+    {
+      "item": "gt6ce:integrated_circuit_1"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:sea_water",
+      "amount": 1000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

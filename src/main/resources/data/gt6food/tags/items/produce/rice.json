@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/rice",
+    {
+      "id": "pamhc2crops:riceitem",
+      "required": false
+    }
+  ]
+}

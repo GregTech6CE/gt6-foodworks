@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:chocolate_raisins",
+    {
+      "id": "gt6ce:chocolate_raisins",
+      "required": false
+    }
+  ]
+}

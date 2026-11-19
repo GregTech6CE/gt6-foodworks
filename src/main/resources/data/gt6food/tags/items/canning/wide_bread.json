@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:dough_toast_loaf",
+    "gt6food:loaf_of_toast",
+    {
+      "id": "gt6ce:dough_toast_loaf",
+      "required": false
+    },
+    {
+      "id": "gt6ce:loaf_of_toast",
+      "required": false
+    }
+  ]
+}

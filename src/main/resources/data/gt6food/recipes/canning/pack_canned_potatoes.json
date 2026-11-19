@@ -1,0 +1,19 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.canner",
+  "item_inputs": [
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "gt6food:empty_food_can"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:canned_potatoes"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

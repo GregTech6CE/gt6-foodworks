@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:baguette",
+    "gt6food:baguettes",
+    {
+      "id": "gt6ce:baguette",
+      "required": false
+    },
+    {
+      "id": "gt6ce:baguettes",
+      "required": false
+    }
+  ]
+}

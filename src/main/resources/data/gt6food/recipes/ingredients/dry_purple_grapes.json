@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.drying",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/purple_grapes"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:purple_raisins"
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6ce:ic2distilledwater",
+      "amount": 50
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 100
+}

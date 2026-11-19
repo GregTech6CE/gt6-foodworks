@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "gt6ce:grilled_bacon",
+      "required": false
+    },
+    {
+      "id": "gt6food:grilled_bacon",
+      "required": false
+    }
+  ]
+}

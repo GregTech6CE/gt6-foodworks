@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.injector",
+  "item_inputs": [
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:holy_water",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

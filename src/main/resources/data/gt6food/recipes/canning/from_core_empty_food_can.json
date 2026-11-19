@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "gt6ce:empty_food_can"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "gt6ce:empty_food_can"
+    }
+  ],
+  "result": {
+    "item": "gt6food:empty_food_can"
+  }
+}

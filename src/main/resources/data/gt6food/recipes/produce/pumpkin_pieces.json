@@ -1,0 +1,20 @@
+{
+  "type": "gt6ce:tool_shaped",
+  "pattern": [
+    "k",
+    "X"
+  ],
+  "key": {
+    "k": {
+      "tag": "forge:tools/knife"
+    },
+    "X": {
+      "item": "minecraft:pumpkin"
+    }
+  },
+  "result": {
+    "item": "gt6food:pumpkin_pieces"
+  },
+  "allow_mirror": false,
+  "gregtech_autocraftable": false
+}

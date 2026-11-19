@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:apple_cider_vinegar",
+    "gt6food:grape_vinegar",
+    "gt6food:cane_vinegar",
+    {
+      "id": "gt6ce:applevinegar",
+      "required": false
+    },
+    {
+      "id": "gt6ce:canevinegar",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "tag": "gt6ce:ammunition/sticks_wood"
+    },
+    {
+      "tag": "gt6food:ingredients/chum"
+    }
+  ],
+  "result": {
+    "item": "gt6food:chum_on_a_stick"
+  },
+  "gregtech_autocraftable": false
+}

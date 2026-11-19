@@ -1,0 +1,86 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'gregtechfood'
+version = modVersion
+base.archivesName = "gt6food-${minecraftVersion}-forge"
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+sourceSets.test {
+    compileClasspath += sourceSets.main.compileClasspath
+}
+
+def gt6ceArtifact = "gt6ce-${minecraftVersion}-forge"
+def gt6ceJarName = "${gt6ceArtifact}-${gt6ceVersion}.jar"
+def gt6ceCheckout = file(providers.gradleProperty('gt6ceDir').getOrElse('../GregTech6CommunityEdition/GregTech6'))
+def localJar = file("libs/${gt6ceJarName}")
+def gt6ceJar = localJar.isFile() ? localJar : new File(
+        gt6ceCheckout, "minecraft/versions/${minecraftVersion}-forge/build/libs/${gt6ceJarName}")
+
+minecraft {
+    mappings channel: 'official', version: minecraftVersion
+    runs {
+        configureEach {
+            workingDirectory file('run')
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', file('build/createSrgToMcp/output.srg').absolutePath
+            mods {
+                gt6food { source sourceSets.main }
+            }
+        }
+        client {}
+        server { args '--nogui' }
+        gameTestServer {
+            workingDirectory layout.buildDirectory.dir('gametest-run').get().asFile
+            property 'forge.enabledGameTestNamespaces', 'gt6food'
+            mods {
+                gt6food { source sourceSets.test }
+            }
+        }
+    }
+}
+
+if (gt6ceJar.isFile()) {
+    repositories {
+        flatDir { dirs gt6ceJar.parentFile }
+    }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraftVersion}-${forgeVersion}"
+    if (gt6ceJar.isFile()) {
+        def gt6ce = fg.deobf("local.gt6ce:${gt6ceArtifact}:${gt6ceVersion}")
+        runtimeOnly gt6ce
+        testCompileOnly gt6ce
+    }
+}
+
+def requireGt6ce = tasks.register('requireGt6ce') {
+    doLast {
+        if (!gt6ceJar.isFile()) {
+            throw new GradleException("Missing ${gt6ceJar}. Build :minecraft:${minecraftVersion}-forge:distributionJar in the GT6CE checkout or place ${gt6ceJarName} in libs/.")
+        }
+    }
+}
+
+tasks.configureEach {
+    if (name in ['compileTestJava', 'runClient', 'runServer', 'runGameTestServer']) {
+        dependsOn requireGt6ce
+    }
+}
+
+tasks.named('processResources', ProcessResources).configure {
+    inputs.property 'modVersion', project.version
+    filesMatching('META-INF/mods.toml') {
+        expand modVersion: project.version
+    }
+}
+
+tasks.named('jar', Jar).configure {
+    finalizedBy 'reobfJar'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

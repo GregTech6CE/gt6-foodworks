@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:chili_pepper",
+    {
+      "id": "#forge:crops/chilipepper",
+      "required": false
+    },
+    {
+      "id": "gt6ce:chili_pepper",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:chilipepperitem",
+      "required": false
+    }
+  ]
+}

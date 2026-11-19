@@ -1,0 +1,19 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:dough"
+    },
+    {
+      "item": "gt6food:dough"
+    },
+    {
+      "item": "gt6food:dough"
+    }
+  ],
+  "result": {
+    "item": "gt6food:dough_baguette",
+    "count": 1
+  },
+  "gregtech_autocraftable": true
+}

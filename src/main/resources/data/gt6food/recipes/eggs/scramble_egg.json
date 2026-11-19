@@ -1,0 +1,13 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    { "item": "gt6food:egg_white" },
+    { "item": "gt6food:egg_yolk" }
+  ],
+  "item_outputs": [
+    { "item": "gt6food:scrambled_egg" }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

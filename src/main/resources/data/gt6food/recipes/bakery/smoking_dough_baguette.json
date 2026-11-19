@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "gt6food:dough_baguette"
+  },
+  "result": "gt6food:baguette",
+  "experience": 0.0,
+  "cookingtime": 100
+}

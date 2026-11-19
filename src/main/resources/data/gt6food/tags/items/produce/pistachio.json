@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:pistachio",
+    {
+      "id": "#forge:crops/pistachio",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:pistachioitem",
+      "required": false
+    }
+  ]
+}

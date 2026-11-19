@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.squeezer",
+  "item_inputs": [
+    {
+      "item": "minecraft:cod"
+    }
+  ],
+  "item_outputs": [
+    {
+      "material": "FishRaw",
+      "form": "dust"
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6ce:fishoil",
+      "amount": 2000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 32
+}

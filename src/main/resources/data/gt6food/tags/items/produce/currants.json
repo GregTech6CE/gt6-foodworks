@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#gt6food:produce/red_currants",
+    "#gt6food:produce/white_currants",
+    "#gt6food:produce/black_currants"
+  ]
+}

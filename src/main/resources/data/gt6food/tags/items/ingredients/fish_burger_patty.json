@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cooked_cod",
+    "minecraft:cooked_salmon",
+    {
+      "id": "gt6ce:cooked_fish_bar",
+      "required": false
+    },
+    {
+      "id": "#gt6ce:ingot/fish_cooked",
+      "required": false
+    }
+  ]
+}

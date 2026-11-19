@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.bath",
+  "item_inputs": [
+    {
+      "item": "gt6food:grilled_ribs"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:barbecue_sauce",
+      "amount": 250
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:barbecue_ribs"
+    }
+  ],
+  "eu_per_tick": 0,
+  "duration": 16
+}

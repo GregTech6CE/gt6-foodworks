@@ -1,0 +1,17 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mortar",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/red_grapes"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:fruit_remains",
+      "chance": 4000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:red_currants",
+    {
+      "id": "#forge:crops/red_currants",
+      "required": false
+    },
+    {
+      "id": "gt6ce:red_currants",
+      "required": false
+    }
+  ]
+}

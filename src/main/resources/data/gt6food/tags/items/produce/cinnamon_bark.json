@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:cinnamon_bark",
+    {
+      "id": "gt6ce:cinnamon_bark",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:cinnamonitem",
+      "required": false
+    },
+    {
+      "id": "#forge:crops/cinnamon",
+      "required": false
+    }
+  ]
+}

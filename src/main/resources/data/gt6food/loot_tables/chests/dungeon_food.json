@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.35 }],
+      "entries": [
+        { "type": "minecraft:item", "name": "gt6food:cider", "weight": 4 },
+        { "type": "minecraft:item", "name": "gt6food:rum", "weight": 2 },
+        { "type": "minecraft:item", "name": "gt6food:purple_drink", "weight": 2 },
+        { "type": "minecraft:item", "name": "gt6food:lemonade", "weight": 3 },
+        { "type": "minecraft:item", "name": "gt6food:golden_apple_juice", "weight": 1 },
+        { "type": "minecraft:item", "name": "gt6food:raisin_cookie", "weight": 3 },
+        { "type": "minecraft:item", "name": "gt6food:tiny_food_can_meat", "weight": 3 }
+      ]
+    }
+  ]
+}

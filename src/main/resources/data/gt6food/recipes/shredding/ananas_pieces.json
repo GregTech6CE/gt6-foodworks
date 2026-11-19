@@ -1,0 +1,17 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.shredder",
+  "item_inputs": [
+    {
+      "item": "gt6food:ananas_pieces"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:fruit_remains",
+      "chance": 9000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

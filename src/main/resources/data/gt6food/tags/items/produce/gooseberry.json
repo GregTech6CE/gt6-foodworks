@@ -1,0 +1,17 @@
+{
+  "values": [
+    "gt6food:gooseberry",
+    {
+      "id": "gt6ce:gooseberry",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:gooseberryitem",
+      "required": false
+    },
+    {
+      "id": "#forge:crops/gooseberry",
+      "required": false
+    }
+  ]
+}

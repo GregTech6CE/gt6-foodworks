@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "tag": "gt6food:condiments/ketchup"
+    },
+    {
+      "item": "gt6food:flattened_dough"
+    },
+    {
+      "item": "gt6food:flattened_dough"
+    },
+    {
+      "item": "gt6food:flattened_dough"
+    }
+  ],
+  "result": {
+    "item": "gt6food:flat_dough_with_ketchup",
+    "count": 3
+  },
+  "gregtech_autocraftable": true
+}

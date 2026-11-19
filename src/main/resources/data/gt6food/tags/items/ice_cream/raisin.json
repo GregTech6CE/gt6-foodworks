@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:green_raisins",
+    "gt6food:white_raisins",
+    "gt6food:red_raisins",
+    "gt6food:purple_raisins",
+    "gt6food:pomeraisins",
+    {
+      "id": "gt6ce:green_raisins",
+      "required": false
+    },
+    {
+      "id": "gt6ce:white_raisins",
+      "required": false
+    },
+    {
+      "id": "gt6ce:red_raisins",
+      "required": false
+    },
+    {
+      "id": "gt6ce:purple_raisins",
+      "required": false
+    },
+    {
+      "id": "gt6ce:pomeraisins",
+      "required": false
+    }
+  ]
+}

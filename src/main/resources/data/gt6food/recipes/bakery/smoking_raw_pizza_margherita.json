@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "gt6food:raw_pizza_margherita"
+  },
+  "result": "gt6food:pizza_margherita",
+  "experience": 0.0,
+  "cookingtime": 100
+}

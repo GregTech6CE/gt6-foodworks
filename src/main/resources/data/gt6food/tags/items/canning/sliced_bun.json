@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:sliced_bun",
+    {
+      "id": "gt6ce:sliced_bun",
+      "required": false
+    }
+  ]
+}

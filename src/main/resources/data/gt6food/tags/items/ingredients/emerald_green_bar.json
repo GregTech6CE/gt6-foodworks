@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:emerald_green_bar",
+    {
+      "id": "gt6ce:emerald_green_bar",
+      "required": false
+    },
+    {
+      "id": "#gt6ce:ingot/soylent_green",
+      "required": false
+    }
+  ]
+}

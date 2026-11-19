@@ -1,0 +1,17 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mortar",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/pistachio"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:ground_pistachio",
+      "count": 4
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

@@ -1,0 +1,16 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.shredder",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/black_pepper"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:ground_black_pepper"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

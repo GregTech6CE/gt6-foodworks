@@ -1,0 +1,12 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.generifier",
+  "item_inputs": [
+    { "item": "gt6food:egg" }
+  ],
+  "item_outputs": [
+    { "item": "minecraft:egg" }
+  ],
+  "eu_per_tick": 0,
+  "duration": 1
+}

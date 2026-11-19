@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.canner",
+  "item_inputs": [
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:milk",
+      "amount": 1000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

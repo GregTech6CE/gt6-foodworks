@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "gt6food:dough_bread"
+  },
+  "result": "minecraft:bread",
+  "experience": 0.0,
+  "cookingtime": 200
+}

@@ -1,0 +1,27 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.replicator",
+  "item_inputs": [
+    { "item": "gt6ce:integrated_circuit_10" },
+    { "item": "gt6ce:integrated_circuit_11" }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6ce:neutralmatter",
+      "amount": 1
+    },
+    {
+      "fluid": "gt6ce:chargedmatter",
+      "amount": 1
+    },
+    {
+      "fluid": "gt6ce:biomass",
+      "amount": 1000
+    }
+  ],
+  "item_outputs": [
+    { "item": "gt6food:egg" }
+  ],
+  "eu_per_tick": 16,
+  "duration": 256
+}

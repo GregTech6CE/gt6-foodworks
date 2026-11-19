@@ -1,0 +1,17 @@
+{
+  "values": [
+    "gt6food:raspberry",
+    {
+      "id": "gt6ce:raspberry",
+      "required": false
+    },
+    {
+      "id": "pamhc2crops:raspberryitem",
+      "required": false
+    },
+    {
+      "id": "#forge:crops/raspberry",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": { "item": "gt6food:potato_on_a_stick" },
+  "result": "gt6food:roasted_potato_on_a_stick",
+  "experience": 0,
+  "cookingtime": 200
+}

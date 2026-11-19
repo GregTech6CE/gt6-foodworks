@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="gt6food"
+version="${modVersion}"
+displayName="GregTech 6 Food"
+description="Food and drink processing for GregTech 6 Community Edition."
+
+[[dependencies.gt6food]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.20,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gt6food]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gt6food]]
+modId="gt6ce"
+mandatory=true
+versionRange="[1.0.8,)"
+ordering="AFTER"
+side="BOTH"

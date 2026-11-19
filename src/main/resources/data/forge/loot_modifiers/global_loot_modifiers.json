@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "entries": [
+    "gt6food:seeds_from_grass",
+    "gt6food:seeds_from_temperate_leaves",
+    "gt6food:seeds_from_jungle_leaves",
+    "gt6food:seeds_from_cactus",
+    "gt6food:migrate_core_food_loot",
+    "gt6food:food_in_dungeons"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:sliced_baguette"
+    },
+    {
+      "item": "gt6food:sliced_baguette"
+    },
+    {
+      "tag": "gt6food:ingredients/grilled_bacon"
+    },
+    {
+      "tag": "gt6food:ingredients/grilled_bacon"
+    },
+    {
+      "tag": "gt6food:ingredients/grilled_bacon"
+    },
+    {
+      "tag": "gt6food:ingredients/grilled_bacon"
+    },
+    {
+      "tag": "gt6food:ingredients/grilled_bacon"
+    },
+    {
+      "tag": "gt6food:ingredients/grilled_bacon"
+    }
+  ],
+  "result": {
+    "item": "gt6food:large_bacon_sandwich"
+  },
+  "gregtech_autocraftable": true
+}

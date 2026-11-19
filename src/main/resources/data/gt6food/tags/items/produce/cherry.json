@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:cherry",
+    {
+      "id": "#forge:crops/cherry",
+      "required": false
+    },
+    {
+      "id": "pamhc2trees:cherryitem",
+      "required": false
+    }
+  ]
+}

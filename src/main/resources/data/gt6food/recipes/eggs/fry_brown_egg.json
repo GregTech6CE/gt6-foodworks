@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": { "item": "minecraft:egg" },
+  "result": "gt6food:fried_egg",
+  "experience": 0,
+  "cookingtime": 200
+}

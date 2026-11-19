@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.juicer",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/currants"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:fruit_remains",
+      "chance": 4000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:currant_juice",
+      "amount": 75
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

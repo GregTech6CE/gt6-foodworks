@@ -1,0 +1,27 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.cryomixer",
+  "item_inputs": [
+    {
+      "material": "NaCl",
+      "form": "dustSmall"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:ice_cream"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16,
+  "fluid_inputs": [
+    {
+      "fluid": "gt6ce:potion_mineralwater",
+      "amount": 250
+    },
+    {
+      "fluid": "gt6food:heavy_cream",
+      "amount": 250
+    }
+  ]
+}

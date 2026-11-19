@@ -1,0 +1,27 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "gt6ce:integrated_circuit_2"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:apple_juice",
+      "amount": 125
+    },
+    {
+      "fluid": "gt6food:grape_juice_4",
+      "amount": 125
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:laxative",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

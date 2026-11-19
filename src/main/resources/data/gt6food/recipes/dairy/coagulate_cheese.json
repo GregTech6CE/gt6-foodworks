@@ -1,0 +1,17 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.coagulator",
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:milk",
+      "amount": 1000
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:cheese"
+    }
+  ],
+  "eu_per_tick": 0,
+  "duration": 1024
+}

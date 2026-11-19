@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/mango",
+    {
+      "id": "pamhc2trees:mangoitem",
+      "required": false
+    }
+  ]
+}

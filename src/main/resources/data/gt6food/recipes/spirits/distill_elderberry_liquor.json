@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.distillery",
+  "item_inputs": [
+    {
+      "item": "gt6ce:integrated_circuit_1"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:elderberry_brandy",
+      "amount": 500
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:elderberry_liquor",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 128
+}

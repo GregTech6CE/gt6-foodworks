@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:apple_3",
+    {
+      "id": "#forge:crops/dark_red_apple",
+      "required": false
+    },
+    {
+      "id": "gt6ce:apple_3",
+      "required": false
+    }
+  ]
+}

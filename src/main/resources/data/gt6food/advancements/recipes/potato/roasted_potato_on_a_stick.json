@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gt6food:potato_on_a_stick"]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gt6food:potato/smelt_potato_on_a_stick"
+      }
+    }
+  },
+  "requirements": [
+    ["has_ingredient", "has_recipe"]
+  ],
+  "rewards": {
+    "recipes": ["gt6food:potato/smelt_potato_on_a_stick", "gt6food:potato/smoke_potato_on_a_stick"]
+  }
+}

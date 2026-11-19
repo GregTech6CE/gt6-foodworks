@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "#gt6ce:dust/potato",
+      "required": false
+    },
+    {
+      "id": "#gt6ce:dust/rye",
+      "required": false
+    },
+    {
+      "id": "#gt6ce:dust/wheat",
+      "required": false
+    }
+  ]
+}

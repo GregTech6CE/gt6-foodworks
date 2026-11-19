@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/lime",
+    {
+      "id": "pamhc2trees:limeitem",
+      "required": false
+    }
+  ]
+}

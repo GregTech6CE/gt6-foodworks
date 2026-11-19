@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:white_currants",
+    {
+      "id": "#forge:crops/white_currants",
+      "required": false
+    },
+    {
+      "id": "gt6ce:white_currants",
+      "required": false
+    }
+  ]
+}

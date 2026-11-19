@@ -1,0 +1,28 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "material": "Milk",
+      "form": "dust"
+    },
+    {
+      "item": "gt6ce:integrated_circuit_0"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6ce:soda",
+      "amount": 500
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:milk_2",
+      "amount": 1000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16,
+  "priority": 1
+}

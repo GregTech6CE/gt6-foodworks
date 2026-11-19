@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:tool_shapeless",
+  "ingredients": [
+    {
+      "item": "gt6food:flat_dough_with_ketchup"
+    },
+    {
+      "tag": "gt6food:ingredients/cucumber_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/tomato_slice"
+    },
+    {
+      "tag": "gt6food:ingredients/onion_slice"
+    }
+  ],
+  "result": {
+    "item": "gt6food:raw_veggie_pizza",
+    "count": 1
+  },
+  "gregtech_autocraftable": true
+}

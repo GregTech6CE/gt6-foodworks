@@ -1,0 +1,33 @@
+{
+  "type": "gt6food:extra_loot",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/jungle_leaves"
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "forge:can_tool_perform_action",
+        "action": "shears_dig"
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "loot_table": "gt6food:acquisition/seeds_from_jungle_leaves"
+}

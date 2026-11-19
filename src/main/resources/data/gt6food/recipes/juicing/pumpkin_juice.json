@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.juicer",
+  "item_inputs": [
+    {
+      "item": "gt6food:pumpkin_pieces"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:vegetable_remains",
+      "chance": 9000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:pumpkin_juice",
+      "amount": 875
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

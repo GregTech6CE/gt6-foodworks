@@ -1,0 +1,19 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.boxinator",
+  "item_inputs": [
+    {
+      "item": "gt6ce:empty_wax_pill"
+    },
+    {
+      "tag": "gt6food:produce/spice_leaf"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:blue_pill"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

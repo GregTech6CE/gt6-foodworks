@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "gt6ce:ice_cream"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "gt6ce:ice_cream"
+    }
+  ],
+  "result": {
+    "item": "gt6food:ice_cream"
+  }
+}

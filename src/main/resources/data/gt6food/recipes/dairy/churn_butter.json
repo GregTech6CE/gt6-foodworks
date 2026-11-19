@@ -1,0 +1,17 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.centrifuge",
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:heavy_cream",
+      "amount": 250
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:butter"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 64
+}

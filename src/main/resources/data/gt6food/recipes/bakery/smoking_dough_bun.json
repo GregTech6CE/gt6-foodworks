@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "gt6food:dough_bun"
+  },
+  "result": "gt6food:bun",
+  "experience": 0.0,
+  "cookingtime": 100
+}

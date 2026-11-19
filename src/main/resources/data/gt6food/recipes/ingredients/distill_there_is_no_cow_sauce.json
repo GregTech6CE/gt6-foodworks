@@ -1,0 +1,24 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.distillery",
+  "item_inputs": [
+    {
+      "material": "Gunpowder",
+      "form": "dust"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:diablo_sauce",
+      "amount": 250
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:there_is_no_cow_sauce",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 64,
+  "duration": 128
+}

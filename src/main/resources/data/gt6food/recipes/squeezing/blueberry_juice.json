@@ -1,0 +1,23 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.squeezer",
+  "item_inputs": [
+    {
+      "item": "gt6food:blueberry_pieces"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:fruit_remains",
+      "chance": 3000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:blueberry_juice",
+      "amount": 100
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

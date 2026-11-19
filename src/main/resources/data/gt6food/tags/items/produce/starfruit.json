@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#forge:crops/starfruit",
+    {
+      "id": "pamhc2trees:starfruititem",
+      "required": false
+    }
+  ]
+}

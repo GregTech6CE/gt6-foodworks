@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.canner",
+  "item_inputs": [
+    {
+      "item": "gt6food:canned_hot_air"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:empty_food_can"
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6ce:netherair",
+      "amount": 16000
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

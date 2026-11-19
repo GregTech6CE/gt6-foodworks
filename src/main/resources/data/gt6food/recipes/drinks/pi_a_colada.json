@@ -1,0 +1,26 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:ananas_juice",
+      "amount": 150
+    },
+    {
+      "fluid": "gt6food:coconut_cream",
+      "amount": 50
+    },
+    {
+      "fluid": "gt6food:rum",
+      "amount": 50
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:pi_a_colada",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

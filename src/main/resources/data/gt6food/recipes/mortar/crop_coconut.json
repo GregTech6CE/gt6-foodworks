@@ -1,0 +1,17 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mortar",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/coconut"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:nut_remains",
+      "chance": 3500
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

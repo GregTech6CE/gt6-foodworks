@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [{ "item": "minecraft:apple" }],
+  "result": { "item": "gt6food:apple_pieces" }
+}

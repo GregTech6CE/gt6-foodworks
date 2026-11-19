@@ -1,0 +1,11 @@
+{
+  "type": "gt6ce:tool_shaped",
+  "pattern": ["kX"],
+  "key": {
+    "k": { "tag": "forge:tools/knife" },
+    "X": { "item": "gt6food:cooked_ham" }
+  },
+  "result": { "item": "gt6food:cooked_ham_slice", "count": 4 },
+  "allow_mirror": false,
+  "gregtech_autocraftable": false
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "gt6food:black_currants",
+    {
+      "id": "#forge:crops/black_currants",
+      "required": false
+    },
+    {
+      "id": "gt6ce:black_currants",
+      "required": false
+    }
+  ]
+}

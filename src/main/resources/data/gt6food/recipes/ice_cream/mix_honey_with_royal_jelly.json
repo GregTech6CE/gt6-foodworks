@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "item": "gt6food:ice_cream"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:honey_ice_cream"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16,
+  "fluid_inputs": [
+    {
+      "fluid": "gt6ce:royaljelly",
+      "amount": 5
+    }
+  ]
+}

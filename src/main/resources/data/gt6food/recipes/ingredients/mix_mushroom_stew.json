@@ -1,0 +1,11 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    { "item": "minecraft:red_mushroom" },
+    { "item": "minecraft:brown_mushroom" }
+  ],
+  "fluid_outputs": [{ "fluid": "gt6ce:mushroomsoup", "amount": 1000 }],
+  "eu_per_tick": 16,
+  "duration": 16
+}

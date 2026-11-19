@@ -1,0 +1,31 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "material": "NaCl",
+      "form": "dust"
+    },
+    {
+      "item": "gt6food:ground_black_pepper"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:tomato_ketchup",
+      "amount": 250
+    },
+    {
+      "fluid": "gt6food:grape_vinegar",
+      "amount": 125
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:barbecue_sauce",
+      "amount": 500
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 32
+}

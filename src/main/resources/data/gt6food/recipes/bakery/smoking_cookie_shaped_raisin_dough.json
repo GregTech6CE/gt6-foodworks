@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "gt6food:cookie_shaped_raisin_dough"
+  },
+  "result": "gt6food:raisin_cookie",
+  "experience": 0.0,
+  "cookingtime": 100
+}

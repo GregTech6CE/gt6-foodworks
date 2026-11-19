@@ -1,0 +1,25 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.juicer",
+  "item_inputs": [
+    {
+      "tag": "gt6food:produce/chili_pepper"
+    }
+  ],
+  "item_outputs": [
+    {
+      "material": "Chili",
+      "form": "dustSmall",
+      "count": 4,
+      "chance": 8000
+    }
+  ],
+  "fluid_outputs": [
+    {
+      "fluid": "gt6food:chili_sauce",
+      "amount": 75
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

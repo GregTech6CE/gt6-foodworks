@@ -1,0 +1,21 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.mixer",
+  "item_inputs": [
+    {
+      "material": "Chili",
+      "form": "dustSmall",
+      "count": 4
+    },
+    {
+      "item": "gt6food:potato_chips"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:chili_chips"
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}

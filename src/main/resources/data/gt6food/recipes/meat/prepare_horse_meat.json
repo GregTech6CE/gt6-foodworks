@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gt6ce:horse_meat"
+    }
+  ],
+  "result": {
+    "item": "gt6food:horse_meat"
+  },
+  "conditions": [
+    {
+      "type": "forge:item_exists",
+      "item": "gt6ce:horse_meat"
+    }
+  ]
+}

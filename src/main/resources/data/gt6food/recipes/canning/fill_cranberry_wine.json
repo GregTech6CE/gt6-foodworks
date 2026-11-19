@@ -1,0 +1,22 @@
+{
+  "type": "gt6ce:machine",
+  "map": "gt.recipe.canner",
+  "item_inputs": [
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "gt6food:cranberry_wine"
+    }
+  ],
+  "fluid_inputs": [
+    {
+      "fluid": "gt6food:cranberry_wine",
+      "amount": 250
+    }
+  ],
+  "eu_per_tick": 16,
+  "duration": 16
+}
