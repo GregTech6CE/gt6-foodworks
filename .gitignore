@@ -2,6 +2,7 @@
 /build/
 /run/
 /libs/
+/docs/
 /.idea/
 /.vscode/
 *.iml
