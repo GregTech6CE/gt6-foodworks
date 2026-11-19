@@ -75,6 +75,10 @@ tasks.named('processResources', ProcessResources).configure {
     filesMatching('META-INF/mods.toml') {
         expand modVersion: project.version
     }
+    from('LICENSE') {
+        into 'META-INF/licenses'
+        rename 'LICENSE', 'LGPL-3.0.txt'
+    }
 }
 
 tasks.named('jar', Jar).configure {
