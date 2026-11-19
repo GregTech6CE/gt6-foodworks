@@ -34,3 +34,5 @@ Java 源码按作物、饮料、食物、战利品和叠层三明治分包。机
 项目代码采用 GNU 宽通用公共许可证第 3 版或任何后续版本（`LGPL-3.0-or-later`）。 [LGPL 3.0 正文](LICENSE) · [GPL 3.0 正文](src/main/resources/META-INF/licenses/GPL-3.0.txt)
 
 源自 GregTech 6 的默认食品和饮料贴图按 **CC0 1.0** 提供。Gradle Wrapper 文件采用 **Apache-2.0**。 [贴图归属说明](src/main/resources/META-INF/licenses/gt6-food-textures.txt) · [Gradle Wrapper 许可声明](gradlew)
+
+种子的两层贴图来自 Crops NH，采用 `LGPL-3.0-or-later`。 [种子贴图归属说明](src/main/resources/META-INF/licenses/CropsNH-NOTICE.txt)

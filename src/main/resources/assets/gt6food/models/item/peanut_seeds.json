@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "gt6food:item/seeds/peanut"
-  }
+  "parent": "gt6food:item/seed"
 }

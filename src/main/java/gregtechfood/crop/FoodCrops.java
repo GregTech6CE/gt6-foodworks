@@ -5,6 +5,7 @@ import static gregtechfood.GregTechFood.MOD_ID;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Supplier;
+import java.util.stream.Stream;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -114,6 +115,10 @@ public final class FoodCrops {
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             CROPS.forEach(crop -> event.accept(crop.seeds));
         }
+    }
+
+    static Stream<RegistryObject<Item>> seeds() {
+        return CROPS.stream().map(crop -> crop.seeds);
     }
 
     private static void add(DeferredRegister<Item> items, String id, int nutrition, float saturation) {
