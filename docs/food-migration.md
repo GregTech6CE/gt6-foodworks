@@ -42,7 +42,11 @@ GT6CE v1.1 将食物、饮料、罐头、可放置三明治和扩展农业迁至
 ## 迁移边界与后续验证
 
 - 榨汁和研磨残渣已由附属产出。旧本体面团、冰淇淋和肉类的转换按本体物品是否存在加载。普通战利品表中的已迁移本体食品会转换到附属，原版地牢可直接抽到附属饮品和食物。
-- GT6CE 避难所的酒杯、工坊酒桶和瓶箱优先使用附属饮品，储藏室原饮品槽也可生成附属的圣水和紫饮料。未安装附属时，生成器使用本体仍有的饮品，缺少流体时用水，缺少瓶装物品时用空瓶。待本体移除食品注册后复测加工链，并检查客户端叠层渲染及 HarvestCraft 2 联动。
+- GT6CE 避难所的酒杯、工坊酒桶和瓶箱优先使用附属饮品，储藏室原饮品槽也可生成附属的圣水和紫饮料。未安装附属时，生成器使用本体仍有的饮品，缺少流体时用水，缺少瓶装物品时用空瓶。
+- **GT6CE v1.1 切换。** 本体移除注册后，需复测加工链、动物掉落和避难所生成。当前转换覆盖生成的战利品、生物掉落和两个已移除的附属面团 ID。旧存档中的 `gt6ce` 食品、流体和叠层三明治仍需跨命名空间迁移。旧三明治把批量存在底层配料的数量里，附属使用单独的 `Servings` 字段，方块实体迁移也要转换这部分数据。
+- **客户端与容器。** GameTest 覆盖三明治的存档数据、客户端同步数据和手持杯饮用。叠层的实际渲染、手持水罐和保温瓶、放置容器的交互仍待实测。
+- **HarvestCraft 2 联动。** 可选标签已经接入。待装入 Trees 和 Crops 后验证对应的材料能进入 GT6CE 机器配方。
+- **通用罐头的生存来源。** 57 个通用 ID 中，有 13 个由附属机器配方直接产出，其中一种也出现在附属地牢战利品表里。其余规格应按用途核对来源，常见食材也有对应的专名罐头配方。
 
 ## 旧目录补齐与宿主
 
@@ -102,4 +106,4 @@ Forge `build` 与 `runGameTestServer` 均已通过。42 项必需 GameTest 全�
 ./gradlew build runGameTestServer
 ```
 
-Windows 可使用 `gradlew.bat`。构建产物位于 `build/libs/`。 [饮料迁移测试](../src/test/java/gregtechfood/DrinkMigrationGameTests.java) · [特殊饮品与药丸测试](../src/test/java/gregtechfood/SpecialFoodGameTests.java)
+Windows 可使用 `gradlew.bat`。构建产物位于 `build/libs/`。 [饮料迁移测试](../src/test/java/gregtechfood/drink/DrinkMigrationGameTests.java) · [特殊饮品与药丸测试](../src/test/java/gregtechfood/drink/SpecialFoodGameTests.java)
