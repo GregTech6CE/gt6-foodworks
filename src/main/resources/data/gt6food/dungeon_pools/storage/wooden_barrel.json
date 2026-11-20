@@ -1,0 +1,7 @@
+{
+  "pool": "gt6ce:dungeon/storage/wooden_barrel",
+  "replace": "minecraft:water",
+  "entries": [
+    { "id": "gt6food:purple_drink", "weight": 1 }
+  ]
+}

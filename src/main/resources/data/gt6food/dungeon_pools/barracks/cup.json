@@ -1,0 +1,14 @@
+{
+  "pool": "gt6ce:dungeon/barracks/cup",
+  "replace": "minecraft:water",
+  "entries": [
+    { "id": "gt6food:mead", "weight": 1 },
+    { "id": "gt6food:cave_johnsons_grenade_juice", "weight": 1 },
+    { "id": "gt6food:rum", "weight": 1 },
+    { "id": "gt6food:lemonade", "weight": 1 },
+    { "id": "gt6food:mead", "weight": 1 },
+    { "id": "gt6food:soda", "weight": 1 },
+    { "id": "gt6food:pirate_brew", "weight": 1 },
+    { "id": "gt6food:limoncello", "weight": 1 }
+  ]
+}

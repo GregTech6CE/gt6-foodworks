@@ -1,0 +1,11 @@
+{
+  "pool": "gt6ce:dungeon/workshop/drink_barrel",
+  "replace": "minecraft:water",
+  "entries": [
+    { "id": "gt6food:mead", "weight": 3 },
+    { "id": "gt6food:rum", "weight": 1 },
+    { "id": "gt6food:mead", "weight": 1 },
+    { "id": "gt6food:pirate_brew", "weight": 1 },
+    { "id": "gt6food:limoncello", "weight": 1 }
+  ]
+}

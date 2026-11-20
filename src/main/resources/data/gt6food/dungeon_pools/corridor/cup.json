@@ -1,0 +1,13 @@
+{
+  "pool": "gt6ce:dungeon/corridor/cup",
+  "replace": "minecraft:water",
+  "entries": [
+    { "id": "gt6food:mead", "weight": 1 },
+    { "id": "gt6food:rum", "weight": 1 },
+    { "id": "gt6food:pirate_brew", "weight": 1 },
+    { "id": "gt6food:rum", "weight": 1 },
+    { "id": "gt6food:mead", "weight": 1 },
+    { "id": "gt6food:pirate_brew", "weight": 1 },
+    { "id": "gt6food:limoncello", "weight": 1 }
+  ]
+}

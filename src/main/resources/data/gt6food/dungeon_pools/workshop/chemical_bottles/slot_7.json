@@ -1,0 +1,7 @@
+{
+  "pool": "gt6ce:dungeon/workshop/chemical_bottles/slot_7",
+  "replace": "gt6ce:bottle_empty",
+  "entries": [
+    { "id": "gt6food:purple_drink", "weight": 1 }
+  ]
+}
