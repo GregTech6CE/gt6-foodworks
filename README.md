@@ -1,6 +1,6 @@
-# GregTech 6 Food
+# GregTech 6 Foodworks
 
-GregTech 6 Food（GT6 Food）是 GregTech 6 Community Edition（GT6CE）的食品与饮料附属。它为生存模式加入可种植的原料，并用 GT6CE 的机器把食材加工成饮料、罐头、冰淇淋和各种餐点。 [GT6CE 项目](https://github.com/GregTech6CE/GregTech6)
+GregTech 6 Foodworks（GT6 Food）是 GregTech 6 Community Edition（GT6CE）的食品与饮料附属。它为生存模式加入可种植的原料，并用 GT6CE 的机器把食材加工成饮料、罐头、冰淇淋和各种餐点。 [GT6CE 项目](https://github.com/GregTech6CE/GregTech6)
 
 ## 安装
 
