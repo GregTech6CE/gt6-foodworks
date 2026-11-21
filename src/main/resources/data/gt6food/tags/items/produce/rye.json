@@ -1,5 +1,9 @@
 {
   "values": [
-    "#forge:crops/rye"
+    "#forge:crops/rye",
+    {
+      "id": "pamhc2crops:ryeitem",
+      "required": false
+    }
   ]
 }

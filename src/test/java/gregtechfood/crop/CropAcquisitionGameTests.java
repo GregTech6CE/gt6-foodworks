@@ -34,6 +34,7 @@ import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.fluids.FluidStack;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.gametest.GameTestHolder;
 import net.minecraftforge.gametest.PrefixGameTestTemplate;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -170,6 +171,13 @@ public final class CropAcquisitionGameTests {
                 "red_grapes", "purple_grapes", "black_currants", "white_currants", "red_currants", "chili_pepper",
                 "mint_leaves", "peanut", "candleberry", "anise", "hops", "barley", "corn", "rye",
                 "soybean", "rice", "spice_leaf");
+        if (ModList.get().isLoaded("pamhc2crops")) {
+            expected.retainAll(seedIds("gooseberry", "white_grapes", "red_grapes", "black_currants",
+                    "white_currants", "red_currants", "mint_leaves", "anise", "hops"));
+        }
+        if (ModList.get().isLoaded("pamhc2trees")) {
+            expected.remove(id("gooseberry_seeds"));
+        }
         for (Block grass : List.of(Blocks.GRASS, Blocks.TALL_GRASS, Blocks.FERN, Blocks.LARGE_FERN)) {
             var drops = sampleDrops(helper, grass, ItemStack.EMPTY, 1024);
             assertSeeds(helper, grass, drops, expected);
@@ -186,12 +194,21 @@ public final class CropAcquisitionGameTests {
         silkTouch.enchant(Enchantments.SILK_TOUCH, 1);
         var shears = new ItemStack(Items.SHEARS);
         for (Block leaves : List.of(Blocks.OAK_LEAVES, Blocks.BIRCH_LEAVES, Blocks.JUNGLE_LEAVES)) {
-            var expected = leaves == Blocks.JUNGLE_LEAVES
+            boolean jungle = leaves == Blocks.JUNGLE_LEAVES;
+            var expected = jungle
                     ? seedIds("banana", "black_pepper", "coconut", "kiwi", "coffee_beans", "vanilla_bean", "orange",
                             "lime", "grapefruit", "persimmon", "starfruit", "fig", "mango", "papaya")
                     : seedIds("lemon", "pomegranate", "hazelnut", "pistachio", "cherry", "tea_leaves",
                             "apple", "apple_2", "apple_3", "apricot", "elderberry", "peach",
                             "pear", "plum", "almond", "juniper_berries");
+            if (ModList.get().isLoaded("pamhc2trees")) {
+                expected.retainAll(jungle ? seedIds("kiwi", "coffee_beans")
+                        : seedIds("tea_leaves", "apple", "apple_2", "apple_3", "elderberry", "juniper_berries"));
+            }
+            if (ModList.get().isLoaded("pamhc2crops")) {
+                expected.removeAll(jungle ? seedIds("kiwi", "coffee_beans")
+                        : seedIds("tea_leaves", "elderberry", "juniper_berries"));
+            }
             var drops = sampleDrops(helper, leaves, ItemStack.EMPTY, 1024);
             assertSeeds(helper, leaves, drops, expected);
             assertSeeds(helper, leaves, sampleDrops(helper, leaves, silkTouch, 256), Set.of());
@@ -205,7 +222,8 @@ public final class CropAcquisitionGameTests {
     @GameTest(template = "test_empty")
     public static void discoverAgaveAndPressBrewingJuices(GameTestHelper helper) {
         var drops = sampleDrops(helper, Blocks.CACTUS, ItemStack.EMPTY, 128);
-        assertSeeds(helper, Blocks.CACTUS, drops, seedIds("agave"));
+        assertSeeds(helper, Blocks.CACTUS, drops,
+                ModList.get().isLoaded("pamhc2crops") ? Set.of() : seedIds("agave"));
         helper.assertTrue(drops.contains(Items.CACTUS), "Cacti still drop their block item");
 
         for (String crop : List.of("apricot", "orange", "elderberry", "peach", "pear", "plum", "agave")) {
@@ -222,6 +240,42 @@ public final class CropAcquisitionGameTests {
             helper.assertTrue(pressed != null && pressed.fluidOutputs.length == 1
                     && pressed.fluidOutputs[0].isFluidStackIdentical(fluid(crop + "_juice", squeezedAmount)),
                     "Squeezer accepts addon " + crop);
+        }
+        helper.succeed();
+    }
+
+    @GameTest(template = "test_empty")
+    public static void acceptOptionalCropIngredients(GameTestHelper helper) {
+        if (ModList.get().isLoaded("farmersdelight")) {
+            var level = helper.getLevel();
+            var knife = ForgeRegistries.ITEMS.tags().getTag(ItemTags.create(ResourceLocation.parse("forge:tools/knife")))
+                    .stream().findFirst().orElseThrow();
+            var inventory = helper.makeMockPlayer().getInventory();
+            var crafting = new TransientCraftingContainer(new CraftingMenu(0, inventory), 2, 2);
+            for (String crop : List.of("tomato", "onion", "rice")) {
+                var produce = Objects.requireNonNull(
+                        ForgeRegistries.ITEMS.getValue(ResourceLocation.fromNamespaceAndPath("farmersdelight", crop)));
+                var sharedTag = ItemTags.create(ResourceLocation.fromNamespaceAndPath("c", "crops/" + crop));
+                helper.assertTrue(new ItemStack(produce).is(sharedTag) && new ItemStack(item(crop)).is(sharedTag),
+                        "Farmer's Delight and Foodworks share the c crop tag for " + crop);
+                if (crop.equals("rice")) continue;
+                crafting.setItem(0, new ItemStack(produce));
+                crafting.setItem(1, new ItemStack(knife));
+                var recipe = (CraftingRecipe) level.getRecipeManager().byKey(id("produce/" + crop + "_slice"))
+                        .orElseThrow();
+                helper.assertTrue(recipe.matches(crafting, level), "The slicing recipe accepts Farmer's Delight " + crop);
+            }
+        }
+        if (ModList.get().isLoaded("pamhc2crops")) {
+            for (String grape : List.of("greengrape", "grape")) {
+                var produce = Objects.requireNonNull(ForgeRegistries.ITEMS.getValue(
+                        ResourceLocation.fromNamespaceAndPath("pamhc2crops", grape + "item")));
+                var pressed = MachineRecipeMaps.Juicer.findRecipe(List.of(new ItemStack(produce)), List.of(), true, 1, 3);
+                var juice = fluid(grape.equals("greengrape") ? "grape_juice_3" : "grape_juice_4", 100);
+                helper.assertTrue(pressed != null && pressed.fluidOutputs.length == 1
+                                && pressed.fluidOutputs[0].isFluidStackIdentical(juice),
+                        "HarvestCraft " + grape + " presses into the matching grape juice");
+            }
         }
         helper.succeed();
     }

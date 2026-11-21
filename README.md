@@ -17,6 +17,11 @@ GregTech 6 Food（GT6 Food）是 GregTech 6 Community Edition（GT6CE）的食�
 
 灌装机、通用流体容器、工业材料和辐射医疗由 GT6CE 提供。
 
+## 可选作物联动
+
+- **Pam’s HarvestCraft 2。** Crops 和 Trees 的对应食材可直接进入 Foodworks 的加工配方。自然掉落池抽到重复的 Foodworks 种子时，如果对应食材已注册，就跳过这份种子。其余种子的掉率、旧存档中的植株、库存和自种作物的收获规则保持原样。Crops 与 Trees 按各自可用的食材独立处理。 [Crops](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-crops) · [Trees](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-trees)
+- **农夫乐事。** Forge 1.20.1 的番茄、洋葱和稻米可通过共享 `forge:crops/*` 标签进入 Foodworks 配方。三种食材也加入了对应的 `c:crops/*` 标签，番茄与洋葱的配方还接受 `c:foods/tomato` 与 `c:foods/onion` 的成员。 [农夫乐事](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
+
 ## 构建与测试
 
 使用 JDK 17。将 `gt6ce-1.20.1-forge-1.0.8.jar` 放入 `libs/` 后，在本仓库根目录执行构建和 Forge GameTest。

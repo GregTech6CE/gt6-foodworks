@@ -6,5 +6,8 @@
       "loot_table_id": "minecraft:blocks/cactus"
     }
   ],
-  "loot_table": "gt6food:acquisition/seeds_from_cactus"
+  "loot_table": "gt6food:acquisition/seeds_from_cactus",
+  "skip_drops_if_item_exists": {
+    "gt6food:agave_seeds": "pamhc2crops:agaveitem"
+  }
 }

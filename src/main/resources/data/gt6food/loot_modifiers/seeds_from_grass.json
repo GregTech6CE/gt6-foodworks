@@ -46,5 +46,28 @@
       }
     }
   ],
-  "loot_table": "gt6food:acquisition/seeds_from_grass"
+  "loot_table": "gt6food:acquisition/seeds_from_grass",
+  "skip_drops_if_item_exists": {
+    "gt6food:tomato_seeds": "pamhc2crops:tomatoitem",
+    "gt6food:onion_seeds": "pamhc2crops:onionitem",
+    "gt6food:cucumber_seeds": "pamhc2crops:cucumberitem",
+    "gt6food:blackberry_seeds": "pamhc2crops:blackberryitem",
+    "gt6food:blueberry_seeds": "pamhc2crops:blueberryitem",
+    "gt6food:raspberry_seeds": "pamhc2crops:raspberryitem",
+    "gt6food:cranberry_seeds": "pamhc2crops:cranberryitem",
+    "gt6food:gooseberry_seeds": "pamhc2trees:gooseberryitem",
+    "gt6food:strawberry_seeds": "pamhc2crops:strawberryitem",
+    "gt6food:ananas_seeds": "pamhc2crops:pineappleitem",
+    "gt6food:green_grapes_seeds": "pamhc2crops:greengrapeitem",
+    "gt6food:purple_grapes_seeds": "pamhc2crops:grapeitem",
+    "gt6food:chili_pepper_seeds": "pamhc2crops:chilipepperitem",
+    "gt6food:peanut_seeds": "pamhc2crops:peanutitem",
+    "gt6food:candleberry_seeds": "pamhc2crops:candleberryitem",
+    "gt6food:barley_seeds": "pamhc2crops:barleyitem",
+    "gt6food:corn_seeds": "pamhc2crops:cornitem",
+    "gt6food:rye_seeds": "pamhc2crops:ryeitem",
+    "gt6food:soybean_seeds": "pamhc2crops:soybeanitem",
+    "gt6food:rice_seeds": "pamhc2crops:riceitem",
+    "gt6food:spice_leaf_seeds": "pamhc2crops:spiceleafitem"
+  }
 }

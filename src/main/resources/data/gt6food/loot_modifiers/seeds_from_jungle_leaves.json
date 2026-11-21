@@ -29,5 +29,21 @@
       }
     }
   ],
-  "loot_table": "gt6food:acquisition/seeds_from_jungle_leaves"
+  "loot_table": "gt6food:acquisition/seeds_from_jungle_leaves",
+  "skip_drops_if_item_exists": {
+    "gt6food:banana_seeds": "pamhc2trees:bananaitem",
+    "gt6food:black_pepper_seeds": "pamhc2trees:peppercornitem",
+    "gt6food:coconut_seeds": "pamhc2trees:coconutitem",
+    "gt6food:kiwi_seeds": "pamhc2crops:kiwiitem",
+    "gt6food:coffee_beans_seeds": "pamhc2crops:coffeebeanitem",
+    "gt6food:vanilla_bean_seeds": "pamhc2trees:vanillabeanitem",
+    "gt6food:orange_seeds": "pamhc2trees:orangeitem",
+    "gt6food:lime_seeds": "pamhc2trees:limeitem",
+    "gt6food:grapefruit_seeds": "pamhc2trees:grapefruititem",
+    "gt6food:persimmon_seeds": "pamhc2trees:persimmonitem",
+    "gt6food:starfruit_seeds": "pamhc2trees:starfruititem",
+    "gt6food:fig_seeds": "pamhc2trees:figitem",
+    "gt6food:mango_seeds": "pamhc2trees:mangoitem",
+    "gt6food:papaya_seeds": "pamhc2trees:papayaitem"
+  }
 }

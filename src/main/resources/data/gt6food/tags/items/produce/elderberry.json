@@ -1,5 +1,9 @@
 {
   "values": [
-    "#forge:crops/elderberry"
+    "#forge:crops/elderberry",
+    {
+      "id": "pamhc2crops:elderberryitem",
+      "required": false
+    }
   ]
 }

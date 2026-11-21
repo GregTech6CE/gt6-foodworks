@@ -3,6 +3,7 @@
 /run/
 /libs/
 /docs/
+/art/
 /.idea/
 /.vscode/
 *.iml

@@ -3,7 +3,7 @@
   "map": "gt.recipe.distillery",
   "item_inputs": [
     {
-      "item": "gt6food:juniper_berries"
+      "tag": "gt6food:produce/juniper_berries"
     }
   ],
   "fluid_inputs": [

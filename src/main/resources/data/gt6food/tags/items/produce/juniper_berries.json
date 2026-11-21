@@ -1,5 +1,9 @@
 {
   "values": [
-    "#forge:crops/juniper_berries"
+    "#forge:crops/juniper_berries",
+    {
+      "id": "pamhc2crops:juniperberryitem",
+      "required": false
+    }
   ]
 }

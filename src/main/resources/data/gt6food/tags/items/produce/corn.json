@@ -1,5 +1,9 @@
 {
   "values": [
-    "#forge:crops/corn"
+    "#forge:crops/corn",
+    {
+      "id": "pamhc2crops:cornitem",
+      "required": false
+    }
   ]
 }

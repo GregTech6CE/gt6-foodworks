@@ -38,5 +38,20 @@
       }
     }
   ],
-  "loot_table": "gt6food:acquisition/seeds_from_temperate_leaves"
+  "loot_table": "gt6food:acquisition/seeds_from_temperate_leaves",
+  "skip_drops_if_item_exists": {
+    "gt6food:lemon_seeds": "pamhc2trees:lemonitem",
+    "gt6food:pomegranate_seeds": "pamhc2trees:pomegranateitem",
+    "gt6food:hazelnut_seeds": "pamhc2trees:hazelnutitem",
+    "gt6food:pistachio_seeds": "pamhc2trees:pistachioitem",
+    "gt6food:cherry_seeds": "pamhc2trees:cherryitem",
+    "gt6food:tea_leaves_seeds": "pamhc2crops:tealeafitem",
+    "gt6food:apricot_seeds": "pamhc2trees:apricotitem",
+    "gt6food:elderberry_seeds": "pamhc2crops:elderberryitem",
+    "gt6food:peach_seeds": "pamhc2trees:peachitem",
+    "gt6food:pear_seeds": "pamhc2trees:pearitem",
+    "gt6food:plum_seeds": "pamhc2trees:plumitem",
+    "gt6food:almond_seeds": "pamhc2trees:almonditem",
+    "gt6food:juniper_berries_seeds": "pamhc2crops:juniperberryitem"
+  }
 }

@@ -1,0 +1,9 @@
+{
+  "values": [
+    "gt6food:rice",
+    {
+      "id": "farmersdelight:rice",
+      "required": false
+    }
+  ]
+}

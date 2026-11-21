@@ -3,7 +3,7 @@
   "values": [
     "gt6food:green_grapes",
     {
-      "id": "#forge:crops/grape",
+      "id": "#forge:crops/greengrape",
       "required": false
     },
     {
@@ -11,7 +11,7 @@
       "required": false
     },
     {
-      "id": "pamhc2crops:grapeitem",
+      "id": "pamhc2crops:greengrapeitem",
       "required": false
     }
   ]

@@ -12,6 +12,14 @@
     {
       "id": "#forge:crops/tomato",
       "required": false
+    },
+    {
+      "id": "#c:crops/tomato",
+      "required": false
+    },
+    {
+      "id": "#c:foods/tomato",
+      "required": false
     }
   ]
 }

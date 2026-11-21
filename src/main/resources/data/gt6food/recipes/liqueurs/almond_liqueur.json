@@ -6,7 +6,7 @@
       "item": "minecraft:sugar"
     },
     {
-      "item": "gt6food:almond"
+      "tag": "gt6food:produce/almond"
     }
   ],
   "fluid_inputs": [

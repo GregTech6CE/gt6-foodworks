@@ -1,5 +1,9 @@
 {
   "values": [
-    "#forge:crops/barley"
+    "#forge:crops/barley",
+    {
+      "id": "pamhc2crops:barleyitem",
+      "required": false
+    }
   ]
 }

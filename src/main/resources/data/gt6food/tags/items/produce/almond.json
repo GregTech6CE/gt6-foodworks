@@ -1,5 +1,9 @@
 {
   "values": [
-    "#forge:crops/almond"
+    "#forge:crops/almond",
+    {
+      "id": "pamhc2trees:almonditem",
+      "required": false
+    }
   ]
 }

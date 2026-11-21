@@ -1,5 +1,9 @@
 {
   "values": [
-    "#forge:crops/agave"
+    "#forge:crops/agave",
+    {
+      "id": "pamhc2crops:agaveitem",
+      "required": false
+    }
   ]
 }

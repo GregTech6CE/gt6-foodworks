@@ -4,6 +4,10 @@
     {
       "id": "pamhc2crops:riceitem",
       "required": false
+    },
+    {
+      "id": "#c:crops/rice",
+      "required": false
     }
   ]
 }
