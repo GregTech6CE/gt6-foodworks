@@ -32,7 +32,7 @@ GregTech 6 Foodworks（GT6 Food）是 GregTech 6 Community Edition（GT6CE）的
 
 Windows PowerShell 使用 `.\gradlew.bat build runGameTestServer`。也可以追加 `-Pgt6ceDir=<本体仓库路径>`，使用已在本体仓库中通过 `:minecraft:1.20.1-forge:distributionJar` 构建的同版本发行包。构建产物位于 `build/libs/`。
 
-Java 源码按作物、饮料、食物、战利品和叠层三明治分包。机器与合成配方位于数据资源中，GameTest 覆盖加工链、饮料装倒、作物获取、罐头、三明治及战利品迁移。 [源码](src/main/java/gregtechfood) · [配方](src/main/resources/data/gt6food/recipes) · [GameTest](src/test/java)
+Forge 入口为 `gt6foodworks.GT6Foodworks`，Java 源码按作物、饮料、食物、战利品和叠层三明治分包。机器与合成配方位于数据资源中，GameTest 覆盖加工链、饮料装倒、作物获取、罐头、三明治及战利品迁移。 [源码](src/main/java/gt6foodworks) · [配方](src/main/resources/data/gt6food/recipes) · [GameTest](src/test/java)
 
 ## 授权与素材
 
